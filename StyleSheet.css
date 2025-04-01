@@ -3,6 +3,14 @@ html {
     box-sizing: border-box
 }
 
+/*sets my variables*/
+:root {
+    --nav-color: #EA4444;
+    --nav-text: white;
+    --arrow-background: #e62739;
+    --arrow-color: black;
+}
+
 *, *:before, *:after {
     box-sizing: inherit
 }
@@ -102,7 +110,12 @@ figure {
     margin: 1em 40px
 }
 
+img:hover {
+        transform: scale(1.05);
+}
+
 img {
+    transition: 0.5s;
     border-style: none;
 }
 
@@ -132,6 +145,61 @@ button, input {
 
 button, select {
     text-transform: none
+}
+
+/*settings for my dark mode*/
+.dark-mode-toggle {
+    position: absolute;
+    z-index: 100;
+    top: 1.2em;
+    right: 1em;
+    color: var(--foreground);
+    border: 2px solid currentColor;
+    padding: 4px;
+    background: transparent;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 50px;
+    height: 50px;
+}
+
+.darkmode {
+    background-color: #191919;
+    color: whitesmoke;
+    --nav-color: #ae3131;
+    --nav-text: whitesmoke;
+    --arrow-background: #ae3131;
+    --arrow-color: whitesmoke;
+    scrollbar-color: inherit;
+}
+
+#btnScrollToTop {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: var(--arrow-background);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    color: var(--arrow-color);
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+    #btnScrollToTop:active {
+        --arrow-background: #902929;
+    }
+
+
+
+[data-color-scheme="dark"] {
+    color-scheme: dark;
+}
+
+[data-color-scheme="light"] {
+    color-scheme: light;
 }
 
 button, [type=button], [type=reset], [type=submit] {
