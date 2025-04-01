@@ -19,14 +19,14 @@ window.addEventListener("load", function () {
 
 
 // moves my top nav
-const topnav = document.querySelector(".topnav");
+const topnav = document.querySelector(".w3-top");
 let lastScrollY = window.scrollY;
 
 window.addEventListener("scroll", () => {
     if (lastScrollY < window.scrollY) {
-        topnav.classList.add("topnav--hidden");
+        topnav.classList.add(".w3-top--hidden");
     } else {
-        topnav.classList.remove("topnav--hidden");
+        topnav.classList.remove(".w3-top--hidden");
     }
 
     lastScrollY = window.scrollY;

@@ -1,6 +1,8 @@
 ﻿
 html {
-    box-sizing: border-box
+    box-sizing: border-box;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
 }
 
 /*sets my variables*/
@@ -23,9 +25,15 @@ body, h1, h2, h3, h4, h5, h6 {
     padding: 20px
 }
 
-html {
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%
+#preloader {
+    position: fixed;
+    background: black url(Images/loader.gif) no-repeat center center;
+    background-size: 10%;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 101;
+    top: 0px;
 }
 
 body {
@@ -930,7 +938,14 @@ a {
 }
 
 .w3-top {
-    top: 0
+    top: 0px;
+    background-color: var(--nav-color);
+    transition: 0.5s;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.w3-top--hidden {
+    transform: translateY(-100px);
 }
 
 .w3-bottom {
