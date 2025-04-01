@@ -35,10 +35,6 @@ window.addEventListener("scroll", () => {
 
 
 
-
-
-
-
 // check for saved 'darkMode' in localStorage
 let darkMode = localStorage.getItem('darkMode');
 let isDark = localStorage.getItem('dark');
