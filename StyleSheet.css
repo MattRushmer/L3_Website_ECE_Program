@@ -7,7 +7,7 @@ html {
 
 /*sets my variables*/
 :root {
-    --nav-color: #EA4444;
+    --nav-color: white;
     --nav-text: white;
     --arrow-background: #e62739;
     --arrow-color: black;
@@ -159,8 +159,8 @@ button, select {
 .dark-mode-toggle {
     position: absolute;
     z-index: 100;
-    top: 1.2em;
-    right: 1em;
+    bottom: 1.2em;
+    left: 1em;
     color: var(--foreground);
     border: 2px solid currentColor;
     padding: 4px;
@@ -172,9 +172,9 @@ button, select {
 }
 
 .darkmode {
-    background-color: #191919;
+    background-color: #00771F;
     color: whitesmoke;
-    --nav-color: #ae3131;
+    --nav-color: #191919;
     --nav-text: whitesmoke;
     --arrow-background: #ae3131;
     --arrow-color: whitesmoke;
