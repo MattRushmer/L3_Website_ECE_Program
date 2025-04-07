@@ -37,10 +37,6 @@ body, h1, h2, h3, h4, h5, h6 {
 body {
     margin: 0;
     background-color: #ACFF7C;
-    background-image: url('"C:\Users\matth\OneDrive\Desktop\L3_Website\L3_Website_ECE_Program\Images\background.jpg"');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
 }
 
 article, aside, details, figcaption, figure, footer, header, main, menu, nav, section {
@@ -255,7 +251,8 @@ textarea {
 html, body {
     font-family: Verdana,sans-serif;
     font-size: 15px;
-    line-height: 1.5
+    line-height: 1.5;
+
 }
 
 html {
@@ -830,7 +827,7 @@ a {
 }
 
 .w3-content {
-    max-width: 980px
+    max-width: 980px; 
 }
 
 .w3-auto {
