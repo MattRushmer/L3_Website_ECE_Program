@@ -38,9 +38,11 @@ body, h1, h2, h3, h4, h5, h6 {
 
 body {
     margin: 0;
-    background-image: url('L3_Website_ECE_Program\Images\background.jpg');
-    background-repeat: no-repeat;
     background-color: #ACFF7C;
+    background-image: url('"C:\Users\matth\OneDrive\Desktop\L3_Website\L3_Website_ECE_Program\Images\background.jpg"');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 article, aside, details, figcaption, figure, footer, header, main, menu, nav, section {
@@ -554,7 +556,8 @@ a {
     }
 
 .w3-main, #main {
-    transition: margin-left .4s
+    transition: margin-left .4s;
+
 }
 
 .w3-modal {
