@@ -335,6 +335,33 @@ a {
     width: 100%;
     font-size: 70%;
 }
+/*My columns*/
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column {
+    float: left;
+}
+
+    .column.side {
+        width: 10%;
+    }
+
+    .column.middle {
+        word-break: break-all;
+        width: 80%;
+    }
+
+
+@media screen and (max-width: 600px) {
+    .column.side, .column.middle {
+        width: 100%;
+    }
+}
+
 
 .w3-table, .w3-table-all {
     border-collapse: collapse;
