@@ -181,8 +181,6 @@ button, select {
     color: whitesmoke;
     --nav-color: #191919;
     --nav-text: whitesmoke;
-    --arrow-background: #ae3131;
-    --arrow-color: whitesmoke;
     scrollbar-color: inherit;
 }
 
@@ -331,6 +329,11 @@ img {
 
 a {
     color: inherit
+}
+.footer {
+    text-align: center;
+    width: 100%;
+    font-size: 70%;
 }
 
 .w3-table, .w3-table-all {
@@ -1574,7 +1577,7 @@ a {
 .w3-white, .w3-hover-white:hover {
     color: #000 !important;
     background-color: var(--nav-color);
-    background-text: var(--nav-text);
+ 
 }
 .w3-black, .w3-hover-black:hover {
     color: #fff !important;
