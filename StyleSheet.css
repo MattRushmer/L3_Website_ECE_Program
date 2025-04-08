@@ -320,6 +320,8 @@ a {
     text-align: center;
     width: 100%;
     font-size: 70%;
+    bottom: 5px;
+   
 }
 /*My columns*/
 .row:after {
