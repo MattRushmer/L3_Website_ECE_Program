@@ -10,17 +10,15 @@
     <link rel="stylesheet" href="styleSheet.css">
     <link rel="stylesheet" href="font.css">
 </head>
-<body>
-
-    <div id="preloader"></div>
+<body> 
 
     <!-- Sidebar (hidden by default) -->
     <nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:10%;min-width:300px" id="mySidebar">
         <a href="javascript:void(0)" onclick="a_close()"
-           class="w3-bar-item w3-button"><svg xmlns="http://www.w3.org/2000/svg" height="25px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" /></svg>Close Menu</a>
+           class="w3-bar-item w3-button"><svg xmlns="http://www.w3.org/2000/svg" height="25px" viewBox="0 -960 960 960" width="24px" fill="var(--foreground)"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" /></svg>  Close Menu</a>
         <br>
-        <a href="index.html" class="w3-bar-item w3-button">Alphabet</a>
-        <a onclick="" class="w3-bar-item w3-button">More Info</a>
+        <a href="index.html" class="w3-bar-item w3-button"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="var(--foreground)"><path d="M80-200v-80h400v80H80Zm0-200v-80h200v80H80Zm0-200v-80h200v80H80Zm744 400L670-354q-24 17-52.5 25.5T560-320q-83 0-141.5-58.5T360-520q0-83 58.5-141.5T560-720q83 0 141.5 58.5T760-520q0 29-8.5 57.5T726-410l154 154-56 56ZM560-400q50 0 85-35t35-85q0-50-35-85t-85-35q-50 0-85 35t-35 85q0 50 35 85t85 35Z" /></svg>  Alphabet</a>
+        <a onclick="" class="w3-bar-item w3-button"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="var(--foreground)"><path d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z" /></svg>  More Info</a>
 
         <!--Adds a button to change it to dark mode-->
         <button id="dark-mode-toggle" class="dark-mode-toggle">
