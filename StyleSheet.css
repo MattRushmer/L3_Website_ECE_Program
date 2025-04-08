@@ -141,7 +141,7 @@ button, select {
 }
 
 /*settings for my dark mode*/
-.dark-mode-toggle {
+.dark-mode-toggle{
     position: absolute;
     z-index: 100;
     bottom: 1.2em;
